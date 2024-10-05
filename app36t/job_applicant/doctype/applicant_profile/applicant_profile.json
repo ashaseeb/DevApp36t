@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-05 08:50:08.345779",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_section",
+  "first_name",
+  "last_name",
+  "date_of_birth",
+  "choose_applying_for_the_job_title",
+  "column_break_pwum",
+  "auto_generated_information"
+ ],
+ "fields": [
+  {
+   "fieldname": "personal_section",
+   "fieldtype": "Section Break",
+   "label": "Personal"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "fieldname": "choose_applying_for_the_job_title",
+   "fieldtype": "Select",
+   "label": "Choose Applying For the Job Title",
+   "options": "CEO\nCTO\nCFO\nManager\nOperator\nSupervisor\nSupport Assistance"
+  },
+  {
+   "fieldname": "column_break_pwum",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "auto_generated_information",
+   "fieldtype": "Text",
+   "label": "Auto Generated Information:"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-05 09:07:34.872814",
+ "modified_by": "Administrator",
+ "module": "Job Applicant",
+ "name": "Applicant Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
