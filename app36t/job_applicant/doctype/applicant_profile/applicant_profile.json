@@ -11,7 +11,9 @@
   "date_of_birth",
   "choose_applying_for_the_job_title",
   "column_break_pwum",
-  "auto_generated_information"
+  "auto_generated_information",
+  "section_break_nxsj",
+  "dependent_list"
  ],
  "fields": [
   {
@@ -48,11 +50,21 @@
    "fieldname": "auto_generated_information",
    "fieldtype": "Text",
    "label": "Auto Generated Information:"
+  },
+  {
+   "fieldname": "section_break_nxsj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dependent_list",
+   "fieldtype": "Table",
+   "label": "Dependent List",
+   "options": "Applicant Dependants"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-05 09:07:34.872814",
+ "modified": "2024-10-06 08:24:01.926771",
  "modified_by": "Administrator",
  "module": "Job Applicant",
  "name": "Applicant Profile",
