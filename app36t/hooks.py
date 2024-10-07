@@ -5,6 +5,8 @@ app_description = "Application for Innovation36T"
 app_email = "ashaseeb@i36t.com"
 app_license = "mit"
 
+fixtures = [ { "dt":"Custom Field","filters":[["module","=","Job Applicant"]] } ]
+
 # Apps
 # ------------------
 
